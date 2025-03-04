@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuca Santurino</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+     <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="portfolio.html">Porfolio</a></li>
+            <li class="resalte"><a href="#">Presupuestos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <!--<h2>Presupuestos</h2>-->
+    </nav>
+    <header>
+        <img class="logo" src="../images/logocuca.jpg" alt="logo">
+        <h1 class="slogan">Mixed Media Artist</h1>
+    </header>
+   
+    <section class="formu">
+        <article><p>Rellene sus datos para pedir su presupuesto sin compromiso. Añada mas información útil para elaborarlo.</p>
+            <form class="formu" name="formulario" method="post" action="#">
+                <p>Nombre</p><input type="text" name="nombre" value="" size="53px" autofocus required><br>
+                <p>Email</p><input type="email" name="email" value="" size="53px" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"><br>
+                <p>Teléfono</p><input type="text" name="telefono" value="" size="53px" pattern="\d{3}\d{3}\d{3}" required><br>
+                <p>Solicite mas información</p><textarea type="text" name="masinfo" value="intr" cols="50" 
+                    rows="20" required></textarea><br>
+                <input type="checkbox" class="acepto" name="verif" value="no" required> <span>Acepte la política de
+                    privacidad</span>
+                <input type="submit" name="boton" value="Enviar presupuesto">
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>Cuca Santurino - Media Mixed Art</p><br>
+        <p>Sierpes 25 41013 Sevilla</p>
+        <p>+34 456 345 666</p>
+        <p>hola@cucasanturino.es</p>
+        <ul>
+            <li><a href="https://www.facebook.com/tuperfil" target="_blank">
+                    <img src="../images/facebook_icon.png" alt="Facebook">
+                </a></li>
+            <li><a href="https://www.pinterest.com/tuperfil" target="_blank">
+                    <img src="../images/Pinterest_icon.png" alt="Pinterest">
+                </a></li>
+            <li><a href="https://www.instagram.com/tuperfil" target="_blank">
+                    <img src="../images/instagram_icon.png" alt="Instagram">
+                </a></li>
+            <li><a href="https://www.tiktok.com/in/tuperfil" target="_blank">
+                    <img src="../images/tiktok_icon.png" alt="Tiktok">
+                </a></li>
+            <li><a href="mailto:hola@cucasantirono.es" target="_blank">
+                </a></li>
+        </ul>
+        <p>Todos los derechos reservados, prohibida la reproducción sin permiso</p>
+
+
+    </footer>
+</body>
+
+</html>
